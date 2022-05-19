@@ -22,6 +22,7 @@ export default function App() {
 }
 
 const Btn = styled(Button)`
+<<<<<<< HEAD
         padding: 8px 16px;
         box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
         background-color: #6772e5;
@@ -30,3 +31,13 @@ const Btn = styled(Button)`
           background-color: red;
         }
 `
+=======
+  padding: 8px 16px;
+  box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
+  background-color: #6772e5;
+  border: 1px solid #6772e5;
+  &:hover {
+    background-color: #5469d4;
+  }
+`;
+>>>>>>> d111878f7b5252681d59d6638a69fc9995ddf6da
